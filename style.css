@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero img {
+    width: 100vw;
+    height: 900px;
+    filter: brightness(30%);
+}
+
+.logo {
+    padding-left: 10vw;
+    vertical-align: middle;
+}
+
+.logo img {
+    padding: 0.5rem;
+    height: 4rem;
+    width: 120px;
+}
+
+.links {
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.nav {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20vw;
+    vertical-align: middle;
+    background-color: #7851a9;
+    line-height: 5rem;
+}
+
+.links a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin: 0 32px;
+    vertical-align: middle;
+    height: 5rem;
+}
+
+.cta {
+    background: rgb(120,81,169);
+    background: linear-gradient(149deg, rgba(120,81,169,1) 25%, rgba(117,69,177,1) 46%, rgba(110,56,179,1) 72%);
+    color: white !important;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 22px !important;
+    text-decoration: none;
+}
+
+.cta:hover {
+    filter: brightness(92%);
+}
+
+.herotext {
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+    color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.herotext a {
+    width: 7rem;
+}
+
+.fourcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    left: 30vw;
+}
+
+.card {
+    margin: 2rem;
+    width: 10vw;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about p {
+    width: 30vw;
+}
+
+h1 {
+    width: 100vw;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.container {
+    margin-bottom: 150px;
+}
