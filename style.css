@@ -3,12 +3,17 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
 
-.hero img {
+.hero {
     width: 100vw;
+}
+
+.hero img {
+    width: 99.5vw;
     height: 900px;
     filter: brightness(30%);
 }
@@ -20,7 +25,7 @@ body {
 
 .logo img {
     padding: 0.5rem;
-    height: 4rem;
+    height: 3rem;
     width: 120px;
 }
 
@@ -31,18 +36,19 @@ body {
 }
 
 .links a:hover {
-    color: red;
+    color: black;
 }
 
 .nav {
-    height: 5rem;
+    height: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-right: 20vw;
     vertical-align: middle;
-    background-color: #7851a9;
-    line-height: 5rem;
+    background-color: #326eae;
+    line-height: 4rem;
+    width: 79.5vw;
 }
 
 .links a {
@@ -55,13 +61,16 @@ body {
 }
 
 .cta {
-    background: rgb(120,81,169);
-    background: linear-gradient(149deg, rgba(120,81,169,1) 25%, rgba(117,69,177,1) 46%, rgba(110,56,179,1) 72%);
+    background: rgb(50,110,174);
+    background: linear-gradient(149deg, rgba(50,110,174,1) 25%, rgba(40,107,179,1) 46%, rgba(31,101,176,1) 72%);
     color: white !important;
     padding: 8px;
     border-radius: 10px;
     font-size: 22px !important;
     text-decoration: none;
+    align-items: center;
+    align-self: center;
+    margin: auto;
 }
 
 .cta:hover {
@@ -70,7 +79,7 @@ body {
 
 .herotext {
     position: absolute;
-    top: 35vh;
+    top: 28vh;
     left: 35vw;
     color: white;
     width: 30%;
@@ -86,8 +95,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100vw;
-    left: 30vw;
 }
 
 .card {
@@ -96,13 +103,16 @@ body {
 }
 
 .card img:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
+    transition-duration: 500ms;
 }
 
 .about {
-    width: 100vw;
+    width: 50vw;
     display: flex;
+    margin: auto;
     flex-direction: column;
+    justify-content: center;
 }
 
 .leftright {
@@ -116,8 +126,7 @@ body {
 }
 
 h1 {
-    width: 100vw;
-    margin-top: 50px;
+    width: 50vw;
     text-align: center;
 }
 
@@ -126,5 +135,46 @@ h2 {
 }
 
 .container {
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-bottom: 150px;
+}
+
+.rightcurtain {
+    width: 70vw;
+    background: rgb(50,110,174);
+    background: linear-gradient(149deg, rgba(50,110,174,1) 25%, rgba(40,107,179,1) 46%, rgba(31,101,176,1) 72%);
+    border-radius: 5px;
+    color: white;
+    -webkit-box-shadow: 10px 10px 38px -19px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px -19px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px -19px rgba(0,0,0,0.75);
+}
+
+.rightcurtain h1 {
+    margin: 10px auto 0 auto;
+}
+
+.ctaContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.leftright2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.leftright2 div {
+    margin-top: 200px;
+    padding: 0 50px;
+    width: 35vw;
+}
+
+.license, .hours {
+    background-color: #C7DFF0;
 }
